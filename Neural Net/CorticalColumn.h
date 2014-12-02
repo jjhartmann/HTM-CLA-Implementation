@@ -10,8 +10,8 @@
 #define __Neural_Net__CorticalColumn__
 
 #include <stdio.h>
-#include "def.h"
 #include <vector>
+#include <map>
 #include  <memory>
 #include "neuron.h"
 
@@ -22,13 +22,15 @@ using namespace std;
 class CorticalColumn {
 
 public:
+    CorticalColumn();
     Cortex::NRETURNCODE populateColumn(int lower = 160, int upper = 240);
+    Cortex::NRETURNCODE createConnection(int index);
     
     
     
 private:
     unique_ptr<vector<Neuron>> cColummn;
-    
+    map<Cortex::UINT, Cortex::NWEIGHT> cConnection;
     
     
     

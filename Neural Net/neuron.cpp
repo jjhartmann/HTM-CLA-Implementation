@@ -8,6 +8,14 @@
 
 #include "neuron.h"
 
+
+
+// Constructor
+Neuron::Neuron()
+{
+    
+}
+
 // Set up connection between nueron of same column
 //
 Cortex::NRETURNCODE Neuron::setConnection(const Cortex::UINT index)

@@ -18,6 +18,7 @@
 class Neuron {
     
 public:
+    Neuron();
     Cortex::NRETURNCODE setConnection(const Cortex::UINT index);
     Cortex::NRETURNCODE unsetConnection(const Cortex::UINT index);
     
