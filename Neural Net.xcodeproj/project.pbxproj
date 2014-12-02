@@ -10,6 +10,7 @@
 		7773B7541A2A5F5800BC150C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7773B7531A2A5F5800BC150C /* main.cpp */; };
 		7773B75C1A2AF7F000BC150C /* SpatialPooler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7773B75A1A2AF7F000BC150C /* SpatialPooler.cpp */; };
 		7773B75F1A2B06B500BC150C /* neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7773B75D1A2B06B500BC150C /* neuron.cpp */; };
+		7773B7631A2D947100BC150C /* CorticalColumn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7773B7611A2D947100BC150C /* CorticalColumn.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		7773B75D1A2B06B500BC150C /* neuron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = neuron.cpp; sourceTree = "<group>"; };
 		7773B75E1A2B06B500BC150C /* neuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neuron.h; sourceTree = "<group>"; };
 		7773B7601A2B06F400BC150C /* def.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = def.h; sourceTree = "<group>"; };
+		7773B7611A2D947100BC150C /* CorticalColumn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CorticalColumn.cpp; sourceTree = "<group>"; };
+		7773B7621A2D947100BC150C /* CorticalColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorticalColumn.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				7773B75D1A2B06B500BC150C /* neuron.cpp */,
 				7773B75E1A2B06B500BC150C /* neuron.h */,
 				7773B7601A2B06F400BC150C /* def.h */,
+				7773B7611A2D947100BC150C /* CorticalColumn.cpp */,
+				7773B7621A2D947100BC150C /* CorticalColumn.h */,
 			);
 			path = "Neural Net";
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			files = (
 				7773B7541A2A5F5800BC150C /* main.cpp in Sources */,
 				7773B75C1A2AF7F000BC150C /* SpatialPooler.cpp in Sources */,
+				7773B7631A2D947100BC150C /* CorticalColumn.cpp in Sources */,
 				7773B75F1A2B06B500BC150C /* neuron.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
