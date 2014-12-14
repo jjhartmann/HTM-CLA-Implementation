@@ -13,14 +13,14 @@
 #include <stdlib.h>
 #include <map>
 #include "def.h"
-#endif /* defined(__Neural_Net__neuron__) */
 
+#endif /* defined(__Neural_Net__neuron__) */
 class Neuron {
     
 public:
     Neuron();
     Cortex::NRETURNCODE setConnection(const Cortex::UINT index);
-    Cortex::NRETURNCODE unsetConnection(const Cortex::UINT index);
+    Cortex::NRETURNCODE breakConnection(const Cortex::UINT index);
     
     Cortex::NWEIGHT getConnectionWeight(const Cortex::UINT  index);
     

@@ -36,7 +36,7 @@ Cortex::NRETURNCODE Neuron::setConnection(const Cortex::UINT index)
 }
 
 // Disable and delete connection of neurons
-Cortex::NRETURNCODE Neuron::unsetConnection(const Cortex::UINT index)
+Cortex::NRETURNCODE Neuron::breakConnection(const Cortex::UINT index)
 {
     
     return Cortex::NSUCCESS;

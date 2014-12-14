@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		776782A31A3D8CC700E59594 /* HierarchalSection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 776782A11A3D8CC700E59594 /* HierarchalSection.cpp */; };
+		776782A61A3D8EB600E59594 /* MensMentis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 776782A41A3D8EB600E59594 /* MensMentis.cpp */; };
 		7773B7541A2A5F5800BC150C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7773B7531A2A5F5800BC150C /* main.cpp */; };
 		7773B75C1A2AF7F000BC150C /* SpatialPooler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7773B75A1A2AF7F000BC150C /* SpatialPooler.cpp */; };
 		7773B75F1A2B06B500BC150C /* neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7773B75D1A2B06B500BC150C /* neuron.cpp */; };
@@ -26,6 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		776782A11A3D8CC700E59594 /* HierarchalSection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HierarchalSection.cpp; sourceTree = "<group>"; };
+		776782A21A3D8CC700E59594 /* HierarchalSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HierarchalSection.h; sourceTree = "<group>"; };
+		776782A41A3D8EB600E59594 /* MensMentis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MensMentis.cpp; sourceTree = "<group>"; };
+		776782A51A3D8EB600E59594 /* MensMentis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensMentis.h; sourceTree = "<group>"; };
 		7773B7501A2A5F5800BC150C /* Neural Net */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Neural Net"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7773B7531A2A5F5800BC150C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7773B75A1A2AF7F000BC150C /* SpatialPooler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpatialPooler.cpp; sourceTree = "<group>"; };
@@ -75,6 +81,10 @@
 				7773B7601A2B06F400BC150C /* def.h */,
 				7773B7611A2D947100BC150C /* CorticalColumn.cpp */,
 				7773B7621A2D947100BC150C /* CorticalColumn.h */,
+				776782A11A3D8CC700E59594 /* HierarchalSection.cpp */,
+				776782A21A3D8CC700E59594 /* HierarchalSection.h */,
+				776782A41A3D8EB600E59594 /* MensMentis.cpp */,
+				776782A51A3D8EB600E59594 /* MensMentis.h */,
 			);
 			path = "Neural Net";
 			sourceTree = "<group>";
@@ -135,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776782A31A3D8CC700E59594 /* HierarchalSection.cpp in Sources */,
 				7773B7541A2A5F5800BC150C /* main.cpp in Sources */,
 				7773B75C1A2AF7F000BC150C /* SpatialPooler.cpp in Sources */,
 				7773B7631A2D947100BC150C /* CorticalColumn.cpp in Sources */,
+				776782A61A3D8EB600E59594 /* MensMentis.cpp in Sources */,
 				7773B75F1A2B06B500BC150C /* neuron.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +264,7 @@
 				7773B7591A2A5F5800BC150C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

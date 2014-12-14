@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <vector>
 #include <map>
-#include  <memory>
+#include <memory>
 #include "neuron.h"
 
 #endif /* defined(__Neural_Net__CorticalColumn__) */
@@ -23,7 +23,7 @@ class CorticalColumn {
 
 public:
     CorticalColumn();
-    Cortex::NRETURNCODE populateColumn(int lower = 160, int upper = 240);
+
     Cortex::NRETURNCODE createConnection(int index);
     
     
@@ -32,6 +32,7 @@ private:
     unique_ptr<vector<Neuron>> cColummn;
     map<Cortex::UINT, Cortex::NWEIGHT> cConnection;
     
+    Cortex::NRETURNCODE populateColumn(int lower = 160, int upper = 240);
     
     
 };

@@ -22,8 +22,9 @@ Cortex::NRETURNCODE CorticalColumn::populateColumn(int lower, int upper)
     try {
         int avg = lower + (upper - lower)/2;
     
-        if (!(cColummn == nullptr)) {
-        cColummn.reset();
+        if (!(cColummn == nullptr))
+        {
+            cColummn.reset();
         }
         
         cColummn = unique_ptr<vector<Neuron>>(new vector<Neuron>);

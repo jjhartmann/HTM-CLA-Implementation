@@ -9,8 +9,9 @@
 #ifndef Neural_Net_def_h
 #define Neural_Net_def_h
 
+#define _DEBUG(message) cout << message << endl;
 
-#endif
+
 
 namespace Cortex {
     
@@ -33,3 +34,6 @@ namespace Cortex {
 
 
 }
+
+
+#endif
